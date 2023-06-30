@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/prabhupadamedia/static/css/main.b01a4c7f.css",
-    "main.js": "/prabhupadamedia/static/js/main.e3419f13.js",
+    "main.js": "/prabhupadamedia/static/js/main.e943a25d.js",
     "static/js/787.e5788219.chunk.js": "/prabhupadamedia/static/js/787.e5788219.chunk.js",
     "index.html": "/prabhupadamedia/index.html",
     "main.b01a4c7f.css.map": "/prabhupadamedia/static/css/main.b01a4c7f.css.map",
-    "main.e3419f13.js.map": "/prabhupadamedia/static/js/main.e3419f13.js.map",
+    "main.e943a25d.js.map": "/prabhupadamedia/static/js/main.e943a25d.js.map",
     "787.e5788219.chunk.js.map": "/prabhupadamedia/static/js/787.e5788219.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b01a4c7f.css",
-    "static/js/main.e3419f13.js"
+    "static/js/main.e943a25d.js"
   ]
 }
