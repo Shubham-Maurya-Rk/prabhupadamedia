@@ -8,7 +8,7 @@ function Login() {
     <div className="loginContainer">
         <div className="loginWrapper">
             <div className="loginLeft">
-                <h1>e2sinfotechSMedia</h1>
+                <h1>PrabhupadaMedia</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia doloremque sint ea, amet eligendi illo ducimus perferendis vero deleniti eum.</p>
             </div>
             <div className="loginRight">
