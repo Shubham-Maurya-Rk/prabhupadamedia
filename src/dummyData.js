@@ -1,52 +1,52 @@
 export const Users = [
   {
     id:1,
-    profilePicture: "images/person/1.jpeg",
+    profilePicture: "/images/person/1.jpeg",
     username: "Brahmantirtha Dasa",
   },
   {
     id:2,
-    profilePicture: "images/person/2.jpeg",
+    profilePicture: "/images/person/2.jpeg",
     username: "Gauranga Das",
   },
   {
     id:3,
-    profilePicture: "images/person/3.jpeg",
+    profilePicture: "/images/person/3.jpeg",
     username: "Nityanand Dasa",
   },
   {
     id:4,
-    profilePicture: "images/person/4.jpeg",
+    profilePicture: "/images/person/4.jpeg",
     username: "Yadunandana Swami",
   },
   {
     id:5,
-    profilePicture: "images/person/5.jpeg",
+    profilePicture: "/images/person/5.jpeg",
     username: "Ranchor Dasa",
   },
   {
     id:6,
-    profilePicture: "images/person/6.jpeg",
+    profilePicture: "/images/person/6.jpeg",
     username: "Garuda Dasa",
   },  
   {
     id:7,
-    profilePicture: "images/person/7.jpeg",
+    profilePicture: "/images/person/7.jpeg",
     username: "Ambarisa Dasa",
   },
   {
     id:8,
-    profilePicture: "images/person/8.jpeg",
+    profilePicture: "/images/person/8.jpeg",
     username: "Satyaraja Dasa",
   },
   {
     id:9,
-    profilePicture: "images/person/9.jpeg",
+    profilePicture: "/images/person/9.jpeg",
     username: "Sadaputa Dasa ",
   },
   {
     id:10,
-    profilePicture: "images/person/10.jpeg",
+    profilePicture: "/images/person/10.jpeg",
     username: "Safak Kocaoglu",
   },
 ];
@@ -55,7 +55,7 @@ export const Posts = [
   {
     id: 1,
     desc: "Love ❤️",
-    photo: "images/post/1.jpeg",
+    photo: "/images/post/1.jpeg",
     date: "5 mins ago",
     userId: 1,
     like: 32,
@@ -64,7 +64,7 @@ export const Posts = [
   {
     id: 2,
     desc: "Srila Prabhupada Ki Jai!",
-    photo: "images/post/2.webp",
+    photo: "/images/post/2.webp",
     date: "15 mins ago",
     userId: 2,
     like: 2,
@@ -73,7 +73,7 @@ export const Posts = [
   {
     id: 3,
     desc: "Radharani🥰😍",
-    photo: "images/post/3.jpg",
+    photo: "/images/post/3.jpg",
     date: "1 hour ago",
     userId: 3,
     like: 61,
@@ -82,7 +82,7 @@ export const Posts = [
   {
     id: 4,
     desc: "Jaya RadhaMadhav",
-    photo: "images/post/4.webp",
+    photo: "/images/post/4.webp",
     date: "4 hours ago",
     userId: 4,
     like: 7,
@@ -91,7 +91,7 @@ export const Posts = [
   {
     id: 5,
     desc: "Jaya RadhaVallabh",
-    photo: "images/post/5.jpg",
+    photo: "/images/post/5.jpg",
     date: "5 hours ago",
     userId: 5,
     like: 23,
@@ -100,7 +100,7 @@ export const Posts = [
   {
     id: 6,
     desc: "HH Gopal Krishna Goswami Maharaj ji ki Jai!!!!",
-    photo: "images/post/6.jpg",
+    photo: "/images/post/6.jpg",
     date: "1 day ago",
     userId: 6,
     like: 44,
@@ -109,7 +109,7 @@ export const Posts = [
   {
     id: 7,
     desc: "Shri Shri Gaur Nitai Ki Jai",
-    photo: "images/post/7.jpg",
+    photo: "/images/post/7.jpg",
     date: "2 days ago",
     userId: 7,
     like: 52,
@@ -118,7 +118,7 @@ export const Posts = [
   {
     id: 8,
     desc: "Jai Jagganath!!",
-    photo: "images/post/8.webp",
+    photo: "/images/post/8.webp",
     date: "3 days ago",
     userId: 8,
     like: 15,
@@ -127,7 +127,7 @@ export const Posts = [
   {
     id: 9,
     desc: "Prahlad Narsimha Ki Jai!",
-    photo: "images/post/9.jpg",
+    photo: "/images/post/9.jpg",
     date: "5 days ago",
     userId: 9,
     like: 11,
@@ -136,7 +136,7 @@ export const Posts = [
   {
     id: 10,
     desc: "Siyawar Ramchandra ki Jai!",
-    photo: "images/post/10.jpg",
+    photo: "/images/post/10.jpg",
     date: "1 week ago",
     userId: 10,
     like: 104,
@@ -145,7 +145,7 @@ export const Posts = [
   {
     id: 11,
     desc: "Shri Shri RadhaGiridhari Bhagwan ki Jai!🥰🥰🥰🥰",
-    photo: "images/post/11.jpg",
+    photo: "/images/post/11.jpg",
     date: "Today",
     userId: 10,
     like: 1000,
