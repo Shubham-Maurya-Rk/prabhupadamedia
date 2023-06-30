@@ -8,7 +8,7 @@ import Register from './components/Register/Register';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route exact path='/profile' element={<Profile/>}/>
