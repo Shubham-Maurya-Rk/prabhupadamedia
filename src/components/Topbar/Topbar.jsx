@@ -59,7 +59,7 @@ function Topbar() {
           </span>
         </div>
         <div className="pagePeople d-flex aic">
-          <Link to="/profile"><img src="/images/person/6.jpeg" alt="Login" /></Link>
+          <Link to="/profile"><img src={process.env.PUBLIC_URL+"/images/person/6.jpeg"} alt="Login" /></Link>
           <MoreVertIcon id='threedots' onClick={showMenu}/>
         </div>
       </div>
