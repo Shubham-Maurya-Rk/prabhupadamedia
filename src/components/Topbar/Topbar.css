@@ -1,0 +1,142 @@
+.navbar{
+    position:sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.topbarContainer{
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(0, 110, 255);
+    height: 55px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.topbarLeft{
+    flex:3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topbarLeft>h2{
+    margin-left: 5px;
+}
+.topbarLeft>h2>a{
+    color: white;
+    text-decoration: none;
+}
+
+.topbarCenter,.navigateSearch{
+    background-color: white;
+    height: 70%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex:5;
+}
+
+.topbarRight{
+    flex:4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.searchIcon{
+    color: rgb(36, 35, 35);
+    margin-left: 10px;
+}
+
+.searchInput{
+    height: 30px;
+    width: 90%;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.pageLinks>a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.pageIcons{
+    display: flex;
+    align-items: center;
+}
+
+.pageIcons>span{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.count{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    border-radius: 50%;
+    position: relative;
+    left: -10px;
+    top: -5px;
+}
+
+.pagePeople img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+#threedots{
+    display: none;
+    margin:0 10px;
+}
+
+
+.navigate{
+    display: none;
+    align-items: center;
+    background-color: rgb(223, 212, 212);
+    padding: 5px;
+    position: sticky;
+    z-index: 100;
+}
+.navigateSearch{
+    margin: 0 5px;
+}
+.navigateSearch>input{
+    border-radius: 20px;
+}
+
+.rightbarshowbtn{
+    cursor: pointer;
+}
+.leftbarshowbtn{
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .topbarCenter,.pageLinks,.pageIcons{
+        display: none;
+    }
+    .topbarLeft{
+        margin-left: 10px;
+    }
+    .topbarLeft>h2 {
+        font-size: 15px;
+    }
+    #threedots{
+        display: inline-block;
+    } 
+    .topbarRight{
+        justify-content: flex-end;
+    }
+    .navigate{
+        display: flex !important;
+    }
+}

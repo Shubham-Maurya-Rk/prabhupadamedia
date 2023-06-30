@@ -1,0 +1,42 @@
+
+.leftbarIconsList{
+    text-align: start;
+    padding: 20px 30px;
+    list-style: none;
+}
+.leftbarIconsList>li{
+    padding: 8px 0;
+}
+
+.leftbarIconsList>input{
+    margin: 8px 0 0 0;
+    padding:10px 30px;
+    font-size: 15px;
+}
+.hr{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.leftbarFrnds{
+    padding: 30px;
+}
+.leftbarFrndsList{
+    list-style: none;
+    text-align: start;
+}
+.leftbarFrndsList>li{
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+}
+.leftbarFrndsList>li>img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.leftbarFrndsList>li>span{
+    font-size: 16px;
+    font-weight: 600;
+}

@@ -1,0 +1,51 @@
+.gifts-caption>img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+.Rigthbar{
+    height: 92vh;
+    overflow-y: scroll;
+}
+.gifts-caption{
+    text-align: start;
+}
+.gifts{ 
+    width: 95%; 
+    padding: 10px;
+}
+.gifts-image>img{
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 100%;
+}
+.userDetails{
+    text-align: start;
+}
+.rightBarInner{
+    padding: 0 20px;
+}
+
+.userDetails>p{
+    margin: 10px 0;
+    letter-spacing: .4px;;
+}
+.userFriends{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.userFriend{
+    width: 33%;
+    margin: 10px 0;
+}
+.userFriend>img{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.rightBarInner>h2{
+    text-align: start;
+    margin: 20px 0 10px 0;
+}

@@ -1,0 +1,67 @@
+.shareContainer{
+    width: 90%;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px grey;
+}
+.shareBox1{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.shareBox1>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.shareBox1>input{
+    padding: 5px;
+    height: 40px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+}
+.shareBox2{
+    padding: 20px 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.shareBox2>div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.shareOption{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.shareOption>p{
+    margin-left: 4px;
+
+}
+
+.shareBtn{
+    font-size: 16px;
+    padding: 8px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .shareOption{
+        margin: 4px;
+    }
+    .shareBox1>img{
+        margin-right:0 ;
+    }
+}

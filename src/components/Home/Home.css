@@ -1,0 +1,62 @@
+.Home{
+    display: flex;
+    position: relative;
+}
+
+.Leftbar,.Rightbar{
+    flex: 3;
+}
+
+.Leftbar,.Feed,.Rightbar{
+    height: 92vh;
+    overflow-y: scroll;
+}
+
+.Feed{
+    flex: 6;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.jcc{
+    justify-content: center;
+}
+
+.aic{
+    align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    /* .Home{
+        position: relative;
+    } */
+    .Leftbar,.Rightbar{
+        flex: 12;
+        background-color: #fff ;
+    }
+    .Rightbar{
+        position: fixed;
+        top:95px;
+        bottom: 0;
+        right: 0;
+        display: none;
+        height: 92vh !important;
+    }
+    .Leftbar{
+        position: fixed;
+        top: 95px;;
+        bottom: 0;
+        left: 0;
+        display: none;
+        z-index: 90;
+        height: 92vh !important;
+    }
+    .Feed{
+        flex: 12;
+    }
+    .profileTop{
+        height: 30vh!important;
+        margin-bottom: 55px !important;
+    }
+}
